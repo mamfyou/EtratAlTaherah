@@ -1,0 +1,230 @@
+@media all {
+  body {
+    background-color: #d4d4d4;
+    line-height: 2;
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h7,
+  h8,
+  h9,
+  h10 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  sub {
+    vertical-align: super;
+  }
+  .Main {
+    text-align: right;
+    margin: 0 auto;
+    width: 780px;
+  }
+  .Title {
+    margin-top: 50px;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Path {
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 13px;
+    padding: 3px 10px 3px 10px;
+    background-color: gray;
+    color: silver;
+    margin-bottom: 10px;
+  } 
+  .FirstPage .Path a {
+    color: white;
+  }
+  .FirstPage .Path a:hover {
+    color: silver;
+  }
+
+  .PageCount {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .PageText,
+  .Creators,
+  .FirstPage {
+    padding: 20px;
+    text-align: justify;
+    background-color: White;
+  }
+  .PageText,
+  .FirstPage {
+    margin-top: 20px;
+    font-family: Tahoma;
+    font-size: 13px;
+    padding: 20px 60px 40px 60px;
+    border: solid 1px gray;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+  }
+
+  .PageHead {
+    font-family: Tahoma;
+    line-height: 1.8;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .PageTitle {
+    float: right;
+    margin-top: 25px;
+  }
+  .PageNo {
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+  }
+  hr {
+    clear: both;
+    margin: 0px;
+    color: #221122;
+  }
+  .Creator {
+    font-size: 13px;
+  }
+  Table {
+    width: 90%;
+  }
+  .Finish {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+  .FirstPage {
+    padding-bottom: 60px;
+  }
+  .magsImg {
+    float: left;
+  }
+  img {
+    border-width: 0px;
+  }
+
+  /* تمام متون */
+  .CODE {
+    font-family: BBCNassim, Tahoma, Traditional Arabic !important;
+    font-size: 11pt;
+  }
+  .CODE span {
+    border: none !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  /* Safari and Chrome */
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .CODE p span.a {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  }
+  .CODE h1 {
+    font-size: 16px;
+  }
+  .CODE h2 {
+    font-size: 14px;
+  }
+  .CODE h3 {
+    font-size: 12px;
+  }
+  .CODE h4 {
+    font-size: 11px;
+  }
+  /*عمومي	کل مطالب*/
+  .CODE .G {
+    font-family: inherit;
+    color: #000000;
+    text-align: justify;
+  }
+  /*عمومي	خط دوم صفحات	*/
+  .CODE .GC {
+    font-family: inherit;
+    color: #000000;
+    width: 100%;
+  }
+  .CODE .bookPage {
+    font-family: inherit;
+    color: gray !important;
+    display: block;
+    text-align: center;
+  }
+  .CODE .Z {
+    background-color: inherit !important;
+    border: 0px;
+  }
+  .CODE .pome {
+    display: block;
+  }
+  .CODE .pome .rightpome {
+    width: 300px;
+    float: right;
+  } 
+  .directionRight {
+    direction: rtl;
+    margin: 25px 0;
+  }
+  .directionRight .imageArea {
+    float: right;
+    width: 160px;
+    padding: 0 0 0 15px;
+  }
+  .directionRight .textArea {
+    overflow: hidden;
+    min-height: 250px;
+  }
+  .directionRight .textArea p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .directionLeft {
+    direction: ltr;
+  }
+  .directionLeft .imageArea {
+    float: left;
+    width: 160px;
+    padding: 0 15px 0 0;
+  }
+  .directionLeft .textArea {
+    overflow: hidden;
+  }
+  .directionLeft .textArea p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .bookSmallCoverImage {
+    width: 160px;
+    height: 250px;
+  }
+}
+
+@media print {
+  .Main {
+    width: 650px;
+  }
+  .PageText {
+    page-break-before: always;
+    border-width: 0px;
+    margin: 0px;
+    padding: 1px;
+  }
+  .FirstPage {
+    padding-right: 10px;
+    padding: 3px;
+    border: solid 1px black;
+  }
+}
